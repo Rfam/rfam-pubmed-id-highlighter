@@ -68,7 +68,7 @@ limitations under the License.
                       html(pubmed_id + ' - Add to Rfam?');
             } else {
                 $this.addClass('rfam-pubmed-id found-in-rfam').
-                      html(pubmed_id + ' - Already in Rfam');
+                      html(pubmed_id + ' - Already analyzed');
             }
             $this.css('padding', '0px 5px');
         });
