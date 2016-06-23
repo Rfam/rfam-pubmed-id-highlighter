@@ -20,7 +20,7 @@ limitations under the License.
 
     var API_KEY = 'AIzaSyCUi-de7G-UgwvJlQWBGcyE91Z0FtaKRiA',
         SPREADSHEET_ID = '1h-bjALegIWRT4AgydTIWWa4Si3JWOGY9u0kQ8iuNk7E',
-        RANGE = 'PMIDs!E2:E',
+        RANGE = 'PMIDs!A2:A',
         url = 'https://sheets.googleapis.com/v4/spreadsheets/' + SPREADSHEET_ID + '/values/' + RANGE + '?key=' + API_KEY;
 
     jQuery.getJSON(url, function (data) {
