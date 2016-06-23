@@ -57,7 +57,7 @@ limitations under the License.
             var $this = $(this),
                 pubmed_id = $this.text().replace(/ /g,'');
 
-            if (!pubmed_id.match(/\d+/)) {
+            if (!pubmed_id.match(/^\d+$/)) {
                 return true;
             }
 
