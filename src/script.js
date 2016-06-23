@@ -61,8 +61,6 @@ limitations under the License.
                 return true;
             }
 
-            console.log(jQuery.inArray('27298343', rfam_ids));
-
             if (jQuery.inArray(pubmed_id, rfam_ids) === -1) {
                 $this.addClass('rfam-pubmed-id not-in-rfam').
                       html(pubmed_id + ' - Add to Rfam?');
