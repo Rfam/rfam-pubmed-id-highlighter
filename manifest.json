@@ -1,0 +1,18 @@
+{
+  "name": "Rfam Pubmed ID Highlighter",
+  "version": "0.0.1",
+  "description": "Highlight Pubmed IDs if they are not annotated in Rfam",
+  "permissions": [
+    "https://www.ncbi.nlm.nih.gov/pubmed/*",
+    "http://www.ncbi.nlm.nih.gov/pubmed/*"
+  ],
+  "content_scripts": [{
+    "matches": [
+      "https://www.ncbi.nlm.nih.gov/pubmed/*",
+      "http://www.ncbi.nlm.nih.gov/pubmed/*"
+    ],
+    "js": ["vendor/jquery/jquery.min.js", "src/script.js"],
+    "css": ["src/style.css"]
+  }],
+  "manifest_version": 2
+}
