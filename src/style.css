@@ -16,9 +16,9 @@ limitations under the License.
 }
 
 .found-in-rfam {
-    background-color: #5cb85c; # red
+    background-color: #d9534f; # red
 }
 
 .not-in-rfam {
-    background-color: #d9534f; # green
+    background-color: #5cb85c; # green
 }
