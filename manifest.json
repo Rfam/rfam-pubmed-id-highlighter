@@ -8,8 +8,8 @@
   ],
   "content_scripts": [{
     "matches": [
-      "https://www.ncbi.nlm.nih.gov/pubmed/*",
-      "http://www.ncbi.nlm.nih.gov/pubmed/*"
+      "https://www.ncbi.nlm.nih.gov/pubmed*",
+      "http://www.ncbi.nlm.nih.gov/pubmed*"
     ],
     "js": ["vendor/jquery/jquery.min.js", "src/script.js"],
     "css": ["src/style.css"]
